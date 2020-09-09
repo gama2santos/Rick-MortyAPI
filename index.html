@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API sobre los Personajes de Rick & Morty</title>
+    <link rel="icon" type="favicon.png" href="favicon.png">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <figure class="logo">
+                <img src="logo.png" width="140"/>
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <li>
+                     <a class="link" href="#contenido">¿Quienes Somos?</a>                   
+                    </li>
+                    <li>
+                     <a class="link" href="#contenido">Contenido</a>                   
+                    </li>
+                    <li>
+                     <a class="link" href="#contacto">Ver Más</a>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h1> Personajes de Rick & Morty </h1>
+        <section class="hero">
+            <div class="container2">
+                <div class="grid" id="grid"></div>
+              </div>
+          
+              <div class="modal" id="modal"></div>
+            <!-- <img src="background.jpg" height= "100%" width="100%" alt="imagen principal">--> 
+        </section>
+    </div>
+    <div class="container">
+        <section id="contacto" class="contacto">
+            <form action="Sugerencias" class="form-email">
+                <h3>Sugerencias</h3>
+                <input type="text" placeholder="Dejamos tu email :)" >
+                <button  type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> Enviar</button>
+            </form>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/gama2santos/" class="social-link linkedin"></a>
+                <a href="https://twitter.com/Gama2santos" class="social-link twitter"></a>
+                <a href="https://www.facebook.com/Ga2antos" class="social-link facebook"></a>
+                <a href="https://github.com/gama2santos" class="social-link github"></a>
+                <a href="https://www.instagram.com/gama2santos/" class="social-link instagram"></a>
+            </div>
+        </section>
+    </div>
+    <div class="container">
+        <footer class="footer">
+            <div>
+                <p> API que habla sobre Rick & Morty, personajes </p>
+                <img src="logo.png" alt="Rick&Morty" height="150px">
+            </div>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
